@@ -5,7 +5,7 @@ eureka:
 server:
 #  0으로 세팅하면 spring이 임의 port를 할당
   port: 0
-spring :
+spring:
   rabbitmq:
     host: localhost
     port: 5672
