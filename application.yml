@@ -6,6 +6,11 @@ server:
 #  0으로 세팅하면 spring이 임의 port를 할당
   port: 0
 spring :
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 #  application:
 ##    유레카에게 내 서비스명이 뭔지를 알린다
 #    name: member-service
@@ -36,3 +41,6 @@ spring :
 #  #  beyondrefreshtokensecretkeybeyondrefreshtokensecretkeybeyondrefreshtokensecretkey
 #  secretKeyRt: YmV5b25kcmVmcmVzaHRva2Vuc2VjcmV0a2V5YmV5b25kcmVmcmVzaHRva2Vuc2VjcmV0a2V5YmV5b25kcmVmcmVzaHRva2Vuc2VjcmV0a2V5
 # product,order은 안쓴다
+  cloud:
+    bus:
+      enabled: true
