@@ -5,7 +5,7 @@ eureka:
 server:
 #  0으로 세팅하면 spring이 임의 port를 할당
   port: 0
-#spring :
+spring :
 #  application:
 ##    유레카에게 내 서비스명이 뭔지를 알린다
 #    name: member-service
